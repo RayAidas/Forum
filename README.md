@@ -3,7 +3,7 @@
 
 基于Spring+SpringMVC+mybatis开发的简易论坛
 
-开发工具idea,maven项目依赖管理
+开发工具idea,maven项目依赖管理,mysql数据库
 
 前端所用技术：jQuery,bootstrap,ajax
 (由于种种原因，页面做的简陋了点，还望见谅）
