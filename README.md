@@ -5,7 +5,7 @@
 
 开发工具idea,maven项目依赖管理,mysql数据库
 
-前端所用技术：jQuery,bootstrap,ajax
+前端所用技术：jQuery,bootstrap,ajax,jsp
 (由于种种原因，页面做的简陋了点，还望见谅）
 
 实现的功能包括　登录注册，文章的增，删，改，查，评论功能
