@@ -1,0 +1,62 @@
+body{
+    width:100%;
+}
+
+.form{
+    width:250px;
+    margin:200px auto;
+}
+
+.form input{
+    display: inline;
+    width:200px;
+}
+
+.form a{
+    display:inline-block;
+    width:238px;
+    text-align: center;
+    margin-top:5px;
+}
+
+.form .submit{
+    width:238px;
+}
+
+.title{
+    color:black;
+}
+
+.content{
+    width: 100%;
+    line-height: 20px;
+    margin-top:10px;
+    word-break: break-all;
+
+    text-overflow: ellipsis;
+
+    display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+
+    -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+
+    -webkit-line-clamp: 3; /** 显示的行数 **/
+
+    overflow: hidden;  /** 隐藏超出的内容 **/
+}
+
+.infor span{
+    margin-right:15px;
+    color:gray;
+}
+
+.list:hover{
+    text-decoration: none;
+}
+
+.detail{
+    width: 100%;
+    height: auto;
+    word-wrap:break-word;
+    word-break:break-all;
+    overflow: hidden;
+}

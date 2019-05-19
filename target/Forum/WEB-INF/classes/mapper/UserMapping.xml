@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xrz.dao.UserDao">
+    <select id="findUserById" parameterType="Integer" resultType="User">
+        select *
+        from f_user
+        where user_id=#{id}
+    </select>
+
+    <select id="findUserByNameAndPassword" parameterType="String" resultType="user">
+        select *
+        from f_user
+        where user_name = #{username}
+        and user_password = #{password}
+        and user_state = '1'
+    </select>
+
+    <select id="findUserByEmailAndPassword" parameterType="String" resultType="user">
+        select *
+        from f_user
+        where user_email = #{email}
+        and user_password = #{password}
+        and user_state = '1'
+    </select>
+
+    <select id="findUserByNameOrEmail" parameterType="String" resultType="user">
+        select *
+        from f_user
+        where user_name = #{username}
+        or user_email = #{email}
+    </select>
+
+    <insert id="addUser">
+        INSERT INTO f_user(`user_name`, `user_email`,`user_password`)
+        VALUES(#{username}, #{email}, #{password})
+    </insert>
+</mapper>

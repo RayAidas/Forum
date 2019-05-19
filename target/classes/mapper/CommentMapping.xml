@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xrz.dao.CommentDao">
+    <!-- 目的：为dao接口方法提供sql语句配置 -->
+    <select id="findCommentById" resultType="Comment">
+        select *
+        from f_comment
+        where comment_article_id = #{commentArticleId}
+    </select>
+
+    <insert id="addComment">
+        insert into f_comment(`comment_article_id`,`comment_user_name`,`comment_user_id`,`comment_content`,`comment_createtime`)
+        value(#{commentArticleId},#{commentUserName},#{commentUserId},#{commentContent},#{commentCreatetime})
+    </insert>
+</mapper>
