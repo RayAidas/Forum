@@ -10,7 +10,7 @@
 
 实现的功能包括　登录注册，文章的增，删，改，查，评论功能
 
-###示例图:
+### 示例图:
 ![avatar](https://github.com/RayAidas/Forum/blob/master/picture/Screenshot%20from%202019-05-19%2012-41-24.png)
 ![avatar](https://github.com/RayAidas/Forum/blob/master/picture/Screenshot%20from%202019-05-19%2012-41-28.png)
 ![avatar](https://github.com/RayAidas/Forum/blob/master/picture/Screenshot%20from%202019-05-19%2012-40-11.png)
@@ -19,4 +19,4 @@
 ![avatar](https://github.com/RayAidas/Forum/blob/master/picture/Screenshot%20from%202019-05-19%2012-40-44.png)
 ![avatar](https://github.com/RayAidas/Forum/blob/master/picture/Screenshot%20from%202019-05-19%2012-40-49.png)
 
-## 参考链接https://github.com/hisenyuan/SSM_BookSystem
+### 参考链接https://github.com/hisenyuan/SSM_BookSystem
